@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>TT Commons Bold.otf</string>
+		<string>TT Commons Medium.otf</string>
+		<string>TT Commons Regular.otf</string>
+	</array>
+    
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>champgreece</string>
+            </array>
+        </dict>
+    </array>
+    <key>NSCameraUsageDescription</key>
+    <string>Let access camera to this app.</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+    <key>BGTaskSchedulerPermittedIdentifiers</key>
+    <array>
+        <string>com.championgreece.ChampionOfGreece.backgroundProccess</string>
+    </array>
+    <key>NSUserNotificationUsageDescription</key>
+    <string>We use notifications to inform you of important updates.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>fetch</string>
+        <string>processing</string>
+        <string>remote-notification</string>
+    </array>
+</dict>
+</plist>

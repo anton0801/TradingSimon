@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE18E70B2CB43DF2008A157D /* BuySellStockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE18E70A2CB43DF2008A157D /* BuySellStockView.swift */; };
+		EE18E70E2CB448DB008A157D /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE18E70D2CB448DB008A157D /* UserManager.swift */; };
+		EE18E7102CB4498A008A157D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE18E70F2CB4498A008A157D /* ProfileView.swift */; };
+		EE18E7132CB45F4C008A157D /* SubscriptionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE18E7122CB45F4C008A157D /* SubscriptionsManager.swift */; };
+		EE18E7152CB463DF008A157D /* SplashRedirectViewAdditionalLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE18E7142CB463DF008A157D /* SplashRedirectViewAdditionalLoad.swift */; };
+		EE18E7462CB5CEA1008A157D /* TradingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE18E7452CB5CEA1008A157D /* TradingContentView.swift */; };
+		EE18E7482CB5D45F008A157D /* TradingSimonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE18E7472CB5D45F008A157D /* TradingSimonDelegate.swift */; };
+		EE18E74B2CB5D513008A157D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EE18E74A2CB5D513008A157D /* FirebaseAnalytics */; };
+		EE18E74D2CB5D513008A157D /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = EE18E74C2CB5D513008A157D /* FirebaseMessaging */; };
+		EE8E00202CB2E6C600A48C4E /* TradingSimonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E001F2CB2E6C600A48C4E /* TradingSimonApp.swift */; };
+		EE8E00222CB2E6C600A48C4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E00212CB2E6C600A48C4E /* ContentView.swift */; };
+		EE8E00242CB2E6C800A48C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8E00232CB2E6C800A48C4E /* Assets.xcassets */; };
+		EE8E00272CB2E6C800A48C4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8E00262CB2E6C800A48C4E /* Preview Assets.xcassets */; };
+		EE8E00372CB3196300A48C4E /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E00362CB3196300A48C4E /* SplashView.swift */; };
+		EE8E003B2CB31A6800A48C4E /* TT Commons Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE8E00382CB31A6700A48C4E /* TT Commons Medium.otf */; };
+		EE8E003C2CB31A6800A48C4E /* TT Commons Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE8E00392CB31A6800A48C4E /* TT Commons Regular.otf */; };
+		EE8E003D2CB31A6800A48C4E /* TT Commons Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE8E003A2CB31A6800A48C4E /* TT Commons Bold.otf */; };
+		EE8E00402CB3FDA800A48C4E /* SplashRedirectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E003F2CB3FDA800A48C4E /* SplashRedirectView.swift */; };
+		EE8E00422CB3FDD300A48C4E /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E00412CB3FDD300A48C4E /* PaywallView.swift */; };
+		EE8E00442CB3FEC300A48C4E /* LessonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E00432CB3FEC300A48C4E /* LessonsView.swift */; };
+		EE8E00482CB4109300A48C4E /* LessonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E00472CB4109300A48C4E /* LessonModel.swift */; };
+		EE8E004A2CB4153E00A48C4E /* LessonDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E00492CB4153E00A48C4E /* LessonDetailsView.swift */; };
+		EE8E004C2CB41C8000A48C4E /* AssetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E004B2CB41C8000A48C4E /* AssetsView.swift */; };
+		EE8E004E2CB41F0800A48C4E /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E004D2CB41F0800A48C4E /* CoursesView.swift */; };
+		EE8E00512CB423A300A48C4E /* AssetsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E00502CB423A300A48C4E /* AssetsManager.swift */; };
+		EE8E00542CB4248300A48C4E /* StocksApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E00532CB4248300A48C4E /* StocksApiManager.swift */; };
+		EE8E00562CB424C600A48C4E /* StockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E00552CB424C600A48C4E /* StockModel.swift */; };
+		EE8E00592CB4274C00A48C4E /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E00582CB4274C00A48C4E /* Double.swift */; };
+		EE8E005B2CB427F700A48C4E /* StockDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E005A2CB427F700A48C4E /* StockDetailsView.swift */; };
+		EE8E005E2CB4284E00A48C4E /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = EE8E005D2CB4284E00A48C4E /* SDWebImageSwiftUI */; };
+		EE8E00602CB42A3F00A48C4E /* MarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E005F2CB42A3F00A48C4E /* MarketView.swift */; };
+		EE8E00622CB42B7600A48C4E /* GraphicViewGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E00612CB42B7600A48C4E /* GraphicViewGenerator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE18E70A2CB43DF2008A157D /* BuySellStockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuySellStockView.swift; sourceTree = "<group>"; };
+		EE18E70D2CB448DB008A157D /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		EE18E70F2CB4498A008A157D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		EE18E7122CB45F4C008A157D /* SubscriptionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsManager.swift; sourceTree = "<group>"; };
+		EE18E7142CB463DF008A157D /* SplashRedirectViewAdditionalLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRedirectViewAdditionalLoad.swift; sourceTree = "<group>"; };
+		EE18E7452CB5CEA1008A157D /* TradingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingContentView.swift; sourceTree = "<group>"; };
+		EE18E7472CB5D45F008A157D /* TradingSimonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingSimonDelegate.swift; sourceTree = "<group>"; };
+		EE8E001C2CB2E6C600A48C4E /* TradingSimon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingSimon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8E001F2CB2E6C600A48C4E /* TradingSimonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingSimonApp.swift; sourceTree = "<group>"; };
+		EE8E00212CB2E6C600A48C4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE8E00232CB2E6C800A48C4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE8E00262CB2E6C800A48C4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE8E00362CB3196300A48C4E /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		EE8E00382CB31A6700A48C4E /* TT Commons Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TT Commons Medium.otf"; sourceTree = "<group>"; };
+		EE8E00392CB31A6800A48C4E /* TT Commons Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TT Commons Regular.otf"; sourceTree = "<group>"; };
+		EE8E003A2CB31A6800A48C4E /* TT Commons Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TT Commons Bold.otf"; sourceTree = "<group>"; };
+		EE8E003E2CB31A7500A48C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EE8E003F2CB3FDA800A48C4E /* SplashRedirectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRedirectView.swift; sourceTree = "<group>"; };
+		EE8E00412CB3FDD300A48C4E /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		EE8E00432CB3FEC300A48C4E /* LessonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsView.swift; sourceTree = "<group>"; };
+		EE8E00472CB4109300A48C4E /* LessonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonModel.swift; sourceTree = "<group>"; };
+		EE8E00492CB4153E00A48C4E /* LessonDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonDetailsView.swift; sourceTree = "<group>"; };
+		EE8E004B2CB41C8000A48C4E /* AssetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsView.swift; sourceTree = "<group>"; };
+		EE8E004D2CB41F0800A48C4E /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
+		EE8E00502CB423A300A48C4E /* AssetsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsManager.swift; sourceTree = "<group>"; };
+		EE8E00532CB4248300A48C4E /* StocksApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksApiManager.swift; sourceTree = "<group>"; };
+		EE8E00552CB424C600A48C4E /* StockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockModel.swift; sourceTree = "<group>"; };
+		EE8E00582CB4274C00A48C4E /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		EE8E005A2CB427F700A48C4E /* StockDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailsView.swift; sourceTree = "<group>"; };
+		EE8E005F2CB42A3F00A48C4E /* MarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketView.swift; sourceTree = "<group>"; };
+		EE8E00612CB42B7600A48C4E /* GraphicViewGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicViewGenerator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE8E00192CB2E6C600A48C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE18E74D2CB5D513008A157D /* FirebaseMessaging in Frameworks */,
+				EE18E74B2CB5D513008A157D /* FirebaseAnalytics in Frameworks */,
+				EE8E005E2CB4284E00A48C4E /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE18E70C2CB448CD008A157D /* User */ = {
+			isa = PBXGroup;
+			children = (
+				EE18E70D2CB448DB008A157D /* UserManager.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		EE18E7112CB45F41008A157D /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				EE18E7122CB45F4C008A157D /* SubscriptionsManager.swift */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
+		EE8E00132CB2E6C600A48C4E = {
+			isa = PBXGroup;
+			children = (
+				EE8E001E2CB2E6C600A48C4E /* TradingSimon */,
+				EE8E001D2CB2E6C600A48C4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE8E001D2CB2E6C600A48C4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E001C2CB2E6C600A48C4E /* TradingSimon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE8E001E2CB2E6C600A48C4E /* TradingSimon */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E00572CB4274500A48C4E /* Ext */,
+				EE8E00452CB4108400A48C4E /* Data */,
+				EE8E003E2CB31A7500A48C4E /* Info.plist */,
+				EE8E003A2CB31A6800A48C4E /* TT Commons Bold.otf */,
+				EE8E00382CB31A6700A48C4E /* TT Commons Medium.otf */,
+				EE8E00392CB31A6800A48C4E /* TT Commons Regular.otf */,
+				EE8E002D2CB2E6FD00A48C4E /* AppContent */,
+				EE8E001F2CB2E6C600A48C4E /* TradingSimonApp.swift */,
+				EE8E00232CB2E6C800A48C4E /* Assets.xcassets */,
+				EE8E00252CB2E6C800A48C4E /* Preview Content */,
+			);
+			path = TradingSimon;
+			sourceTree = "<group>";
+		};
+		EE8E00252CB2E6C800A48C4E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E00262CB2E6C800A48C4E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE8E002D2CB2E6FD00A48C4E /* AppContent */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E00352CB2E7E200A48C4E /* Profile */,
+				EE8E00342CB2E7DB00A48C4E /* Details */,
+				EE8E00332CB2E7D100A48C4E /* Market */,
+				EE8E00312CB2E7B300A48C4E /* Assets */,
+				EE8E00302CB2E7AE00A48C4E /* Lessons */,
+				EE8E002F2CB2E7A000A48C4E /* Paywall */,
+				EE8E002E2CB2E79C00A48C4E /* Splash */,
+				EE8E00212CB2E6C600A48C4E /* ContentView.swift */,
+			);
+			path = AppContent;
+			sourceTree = "<group>";
+		};
+		EE8E002E2CB2E79C00A48C4E /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E00362CB3196300A48C4E /* SplashView.swift */,
+				EE8E003F2CB3FDA800A48C4E /* SplashRedirectView.swift */,
+				EE18E7142CB463DF008A157D /* SplashRedirectViewAdditionalLoad.swift */,
+				EE18E7452CB5CEA1008A157D /* TradingContentView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		EE8E002F2CB2E7A000A48C4E /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E00412CB3FDD300A48C4E /* PaywallView.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		EE8E00302CB2E7AE00A48C4E /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E00432CB3FEC300A48C4E /* LessonsView.swift */,
+				EE8E00492CB4153E00A48C4E /* LessonDetailsView.swift */,
+				EE8E004D2CB41F0800A48C4E /* CoursesView.swift */,
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
+		EE8E00312CB2E7B300A48C4E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E004B2CB41C8000A48C4E /* AssetsView.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		EE8E00332CB2E7D100A48C4E /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E005F2CB42A3F00A48C4E /* MarketView.swift */,
+			);
+			path = Market;
+			sourceTree = "<group>";
+		};
+		EE8E00342CB2E7DB00A48C4E /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E005A2CB427F700A48C4E /* StockDetailsView.swift */,
+				EE8E00612CB42B7600A48C4E /* GraphicViewGenerator.swift */,
+				EE18E70A2CB43DF2008A157D /* BuySellStockView.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		EE8E00352CB2E7E200A48C4E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EE18E70F2CB4498A008A157D /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		EE8E00452CB4108400A48C4E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EE18E7112CB45F41008A157D /* Subscription */,
+				EE18E70C2CB448CD008A157D /* User */,
+				EE8E00522CB4243A00A48C4E /* Stocks */,
+				EE8E004F2CB4237F00A48C4E /* Assets */,
+				EE8E00462CB4108800A48C4E /* Lessons */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EE8E00462CB4108800A48C4E /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E00472CB4109300A48C4E /* LessonModel.swift */,
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
+		EE8E004F2CB4237F00A48C4E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E00502CB423A300A48C4E /* AssetsManager.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		EE8E00522CB4243A00A48C4E /* Stocks */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E00532CB4248300A48C4E /* StocksApiManager.swift */,
+				EE8E00552CB424C600A48C4E /* StockModel.swift */,
+			);
+			path = Stocks;
+			sourceTree = "<group>";
+		};
+		EE8E00572CB4274500A48C4E /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E00582CB4274C00A48C4E /* Double.swift */,
+				EE18E7472CB5D45F008A157D /* TradingSimonDelegate.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE8E001B2CB2E6C600A48C4E /* TradingSimon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8E002A2CB2E6C800A48C4E /* Build configuration list for PBXNativeTarget "TradingSimon" */;
+			buildPhases = (
+				EE8E00182CB2E6C600A48C4E /* Sources */,
+				EE8E00192CB2E6C600A48C4E /* Frameworks */,
+				EE8E001A2CB2E6C600A48C4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TradingSimon;
+			packageProductDependencies = (
+				EE8E005D2CB4284E00A48C4E /* SDWebImageSwiftUI */,
+				EE18E74A2CB5D513008A157D /* FirebaseAnalytics */,
+				EE18E74C2CB5D513008A157D /* FirebaseMessaging */,
+			);
+			productName = TradingSimon;
+			productReference = EE8E001C2CB2E6C600A48C4E /* TradingSimon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE8E00142CB2E6C600A48C4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EE8E001B2CB2E6C600A48C4E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = EE8E00172CB2E6C600A48C4E /* Build configuration list for PBXProject "TradingSimon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE8E00132CB2E6C600A48C4E;
+			packageReferences = (
+				EE8E005C2CB4284E00A48C4E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				EE18E7492CB5D513008A157D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = EE8E001D2CB2E6C600A48C4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE8E001B2CB2E6C600A48C4E /* TradingSimon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE8E001A2CB2E6C600A48C4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8E003B2CB31A6800A48C4E /* TT Commons Medium.otf in Resources */,
+				EE8E00272CB2E6C800A48C4E /* Preview Assets.xcassets in Resources */,
+				EE8E003D2CB31A6800A48C4E /* TT Commons Bold.otf in Resources */,
+				EE8E00242CB2E6C800A48C4E /* Assets.xcassets in Resources */,
+				EE8E003C2CB31A6800A48C4E /* TT Commons Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE8E00182CB2E6C600A48C4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8E004E2CB41F0800A48C4E /* CoursesView.swift in Sources */,
+				EE8E00562CB424C600A48C4E /* StockModel.swift in Sources */,
+				EE8E00542CB4248300A48C4E /* StocksApiManager.swift in Sources */,
+				EE8E00222CB2E6C600A48C4E /* ContentView.swift in Sources */,
+				EE8E00202CB2E6C600A48C4E /* TradingSimonApp.swift in Sources */,
+				EE8E005B2CB427F700A48C4E /* StockDetailsView.swift in Sources */,
+				EE8E00622CB42B7600A48C4E /* GraphicViewGenerator.swift in Sources */,
+				EE8E00422CB3FDD300A48C4E /* PaywallView.swift in Sources */,
+				EE8E00592CB4274C00A48C4E /* Double.swift in Sources */,
+				EE8E00482CB4109300A48C4E /* LessonModel.swift in Sources */,
+				EE18E70B2CB43DF2008A157D /* BuySellStockView.swift in Sources */,
+				EE18E7462CB5CEA1008A157D /* TradingContentView.swift in Sources */,
+				EE8E00372CB3196300A48C4E /* SplashView.swift in Sources */,
+				EE18E7102CB4498A008A157D /* ProfileView.swift in Sources */,
+				EE8E00602CB42A3F00A48C4E /* MarketView.swift in Sources */,
+				EE18E7482CB5D45F008A157D /* TradingSimonDelegate.swift in Sources */,
+				EE8E004C2CB41C8000A48C4E /* AssetsView.swift in Sources */,
+				EE8E00442CB3FEC300A48C4E /* LessonsView.swift in Sources */,
+				EE18E7152CB463DF008A157D /* SplashRedirectViewAdditionalLoad.swift in Sources */,
+				EE18E70E2CB448DB008A157D /* UserManager.swift in Sources */,
+				EE8E00512CB423A300A48C4E /* AssetsManager.swift in Sources */,
+				EE8E00402CB3FDA800A48C4E /* SplashRedirectView.swift in Sources */,
+				EE8E004A2CB4153E00A48C4E /* LessonDetailsView.swift in Sources */,
+				EE18E7132CB45F4C008A157D /* SubscriptionsManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE8E00282CB2E6C800A48C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE8E00292CB2E6C800A48C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE8E002B2CB2E6C800A48C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TradingSimon/Preview Content\"";
+				DEVELOPMENT_TEAM = BK9T62H495;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TradingSimon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamenation.TradingSimon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE8E002C2CB2E6C800A48C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TradingSimon/Preview Content\"";
+				DEVELOPMENT_TEAM = BK9T62H495;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TradingSimon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamenation.TradingSimon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE8E00172CB2E6C600A48C4E /* Build configuration list for PBXProject "TradingSimon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8E00282CB2E6C800A48C4E /* Debug */,
+				EE8E00292CB2E6C800A48C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8E002A2CB2E6C800A48C4E /* Build configuration list for PBXNativeTarget "TradingSimon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8E002B2CB2E6C800A48C4E /* Debug */,
+				EE8E002C2CB2E6C800A48C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE18E7492CB5D513008A157D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.3.0;
+			};
+		};
+		EE8E005C2CB4284E00A48C4E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE18E74A2CB5D513008A157D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE18E7492CB5D513008A157D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		EE18E74C2CB5D513008A157D /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE18E7492CB5D513008A157D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		EE8E005D2CB4284E00A48C4E /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE8E005C2CB4284E00A48C4E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EE8E00142CB2E6C600A48C4E /* Project object */;
+}
